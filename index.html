@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>DD Zone</title>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <!-- <nav id="menu">
+        <ul class="nav-bar">
+            <li class="nav-button-bc"><a href="index.html">Business Cards</a></li>
+            <li class="nav-button-id"><a href="school-id-home.html">Student Id Cards</a></li>
+        </ul>
+    </nav> -->
+
+    <!-- <header>
+        <div class="logo">
+            <img src="Logo.svg" alt="">
+            <h2>Zone Connect</h2>
+        </div>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="">NFC Business Card</a></li>
+                    <li><a href="school-id-home.html">Student Id Card</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
+    <nav class="navbar">
+        <div class="logo" style="display: flex; align-items: center"><img src="Logo.svg" alt="LOGO"><h1>ZoneConnect</h1> </div>
+        <div class="push-left">
+          <button id="menu-toggler" data-class="menu-active" class="hamburger">
+            <span class="hamburger-line hamburger-line-top"></span>
+            <span class="hamburger-line hamburger-line-middle"></span>
+            <span class="hamburger-line hamburger-line-bottom"></span>
+          </button>
+      
+          <!--  Menu compatible with wp_nav_menu  -->
+          <ul id="primary-menu" class="menu nav-menu">
+            <li class="menu-item current-menu-item"><a class="nav__link"  href="#">Home</a></li>
+            <li class="menu-item "><a class="nav__link"  href="#">About</a>
+            <li class="menu-item "><a class="nav__link"  href="#">NFC Business Card</a>
+            <li class="menu-item "><a class="nav__link"  href="school-id-home.html">School Id Cards</a>
+             
+            </li>
+          </ul>
+      
+      
+        </div>
+      </nav>
+      
+
+    <!-- Card Section -->
+    <div class="card-container">
+        <div class="card">
+            <div class="content">
+                <div class="content-box">
+                    <!--                    <img src="https://kardz.store/static/9ef1018164a2328d472736671f8826e4/d689f/icon.webp" class="logo mb-4" alt="" width="60">-->
+                    <h2>NFC Business Cards with ZoneConnect</h2>
+                    <p>
+                        Presenting ZoneConnect - a <strong>no-cost</strong> online business card extension service that
+                        takes your business card to the next level. Our smart scanning tech instantly links customers to
+                        your schedule, signup forms, and more to help your business g.
+                        <!--                    Introducing ZoneConnect – <strong>a free service</strong> that adds an online extension to a single business card you keep. Smart scanning technology instantly brings customers to schedules, signup forms and everything else that makes your business go.-->
+                        <!--                    <a href="#">See our guide.</a>-->
+                    </p>
+                </div>
+                <div class="price-card">
+                    <select name="card-orentation" id="">
+                        <option value="Horizontal" selected>Horizontal</option>
+                        <option value="Vertical">Vertical</option>
+                    </select>
+                    <select name="quantity" id="">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <a href="">Get Started</a>
+                    <span>1 starting at 30.99 <br>
+                        <b>ZoneConnect included free of charge</b></span>
+                </div>
+            </div>
+            <div class="image" id="image-box">
+                <img src="removal_ai_13f7e2fb_1b5b_47f9_b9e9_46522c02f6fc_screenshot_2023.png" alt="" width=800>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--     Video Section -->
+    <div class="video-container container">
+        <div class="video ">
+            <div class="title">
+                <h2>What is ZoneConnect?</h2>
+            </div>
+            <video loop muted playsinline autoplay controls>
+                <source src="MXP-3003-VistaConnect-NFC-round-001_en-us.webm" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <!-- Feature Cards -->
+    <div class="feature-container container">
+        <div class="title">
+            <h2>How ZoneConnect works</h2>
+        </div>
+        <div class="card-container-box  ">
+            <div class="feature-card">
+                <div class="card-icon">
+                    <img src="https://cms.cloudinary.vpsvc.com/image/upload/f_auto/q_auto/v1626808203/digital/New-Platform/Connected-Products/HandWithCard.svg"
+                        alt="">
+                </div>
+                <div class="card-content">
+                    <h3>Your business card</h3>
+                    <p>Put your contact info directly onto customers’ devices with your smart business card.</p>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="card-icon">
+                    <img src="https://cms.cloudinary.vpsvc.com/image/upload/f_auto/q_auto/v1681401093/MXP-18274-NFC-chip-Phone-icon-001.svg"
+                        alt="">
+                </div>
+                <div class="card-content">
+                    <h3>Your customers</h3>
+                    <p>People hold their phone over the card to activate the phone’s built-in scanning technology.</p>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="card-icon">
+                    <img src="https://cms.cloudinary.vpsvc.com/image/upload/f_auto/q_auto/v1626808203/digital/New-Platform/Connected-Products/Website.svg"
+                        alt="">
+                </div>
+                <div class="card-content">
+                    <h3>Your ZoneConnect</h3>
+                    <p>Customers go to your new online experience, which we’ll help you create and edit – <strong>free
+                            of charge.</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--     Nfc Section-->
+    <div class="nfc-container container">
+        <div class="title">
+            <h2>Scan & Connect</h2>
+        </div>
+        <div class="container-inner">
+            <div class="banner-image">
+                <img src="https://cms.cloudinary.vpsvc.com/image/upload/w_2400/f_auto/q_auto/v1659611269/legacy_dam/en-gb/S001484124.png"
+                    alt="" style="width: 100%; height: 105%;">
+            </div>
+            <div class="banner-details">
+                <div class="content">
+                    <h3>NFC Chip</h3>
+                    <p>Customers use their phone to scan a chip embedded in your card. Their phone gets a notification
+                        with the link to your ZoneConnect experience.</p>
+                </div>
+                <div class="feature">
+                    <h4>NFC Business card features</h4>
+                    <ul>
+                        <li>Durable plastic material</li>
+                        <li>Subtle & elegant design</li>
+                        <li>Increasingly popular</li>
+                    </ul>
+                </div>
+                <span>1 starting at $30.99</span> <br>
+                <a href="#">Browse NFC business card designs</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Options Section -->
+
+
+    <!--    Setup Section-->
+    <div class="setup-container container">
+        <div class="title">
+            <h2>ZoneConnect takes minutes to set up.</h2>
+        </div>
+        <div class="setup-image-container">
+            <div class="image-container">
+                <div class="image-item">
+                    <img
+                        src="https://cms.cloudinary.vpsvc.com/image/upload/f_auto/q_auto/v1627660508/digital/New-Platform/Connected-Products/svgviewer-output_1.svg">
+                </div>
+                <div class="content">
+                    <strong>01 <br>Create your card</strong>
+                    <p>Customize one of our templates with your own text and images.</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <div class="image-item">
+                    <img
+                        src="https://cms.cloudinary.vpsvc.com/image/upload/f_auto/q_auto/v1627636134/digital/New-Platform/Connected-Products/Frame.svg">
+                </div>
+                <div class="content">
+                    <strong>01 <br>Create your card</strong>
+                    <p>Customize one of our templates with your own text and images.</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <div class="image-item">
+                    <img
+                        src="https://cms.cloudinary.vpsvc.com/image/upload/f_auto/q_auto/v1627564827/digital/New-Platform/Connected-Products/CardInHand.svg">
+                </div>
+                <div class="content">
+                    <strong>01 <br>Create your card</strong>
+                    <p>Customize one of our templates with your own text and images.</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <div class="image-item">
+                    <img
+                        src="https://cms.cloudinary.vpsvc.com/image/upload/f_auto/q_auto/v1644414969/VBCONNECT-237-activate-vistaConnect-001.svg">
+                </div>
+                <div class="content">
+                    <strong>01 <br>Create your card</strong>
+                    <p>Customize one of our templates with your own text and images.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="smart-card-img">
+        <div class="smart-content-box">
+            <h2>We print durable business cards with our in-house card printers.</h2>
+            <p>We customize cards as per demands of our clients.
+                We provide plain white NFC cards or cards customized with the design of the logo of your institute and
+                unique information and photograph of the card holder.</p>
+        </div>
+    </div>
+
+    <!-- Card2 Section -->
+    <div class="card-container-3 container">
+        <div class="card-3">
+            <div class="content">
+                <div class="content-box">
+                    <h2>Get started with ZoneConnect</h2>
+                </div>
+            </div>
+            <div class="image">
+                <div class="price-card">
+                    <select name="card-orentation" id="">
+                        <option value="Horizontal" selected>Horizontal</option>
+                        <option value="Vertical">Vertical</option>
+                    </select>
+                    <select name="quantity" id="">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <a href="">Get Started</a>
+                    <span>1 starting at 30.99 <br>
+                        <b>ZoneConnect included free of charge</b></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Card3 Section -->
+    <div class="card-container-2 container">
+        <div class="card-2">
+            <div class="content">
+                <div class="content-box">
+                    <h2>Create a card that can keep up with you.</h2>
+                    <p>
+                        Your business moves fast, but your custom business card and online experience keep all your
+                        customers, connections and partners up to date. You can update your site anytime with a simple,
+                        easy-to-use menu. Share daily specials, seasonal sales, additional contact info or a brand new
+                        location. You'll never need to reprint your cards with ZoneConnect — it's just click, click,
+                        done. For larger quantities, contact us and we’ll help you place your order.
+                        <!--                        <a href="#">See our guide.</a>-->
+                    </p>
+                </div>
+
+            </div>
+            <div class="image  p-0">
+                <img src="https://cms.cloudinary.vpsvc.com/image/upload/w_2400/f_auto/q_auto/v1655838861/legacy_dam/en-us/S001467930.png"
+                    alt="" width="900px">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+  // Toggle menu on click
+  $("#menu-toggler").click(function() {
+    toggleBodyClass("menu-active");
+  });
+
+  function toggleBodyClass(className) {
+    document.body.classList.toggle(className);
+  }
+
+ });
+</script>
+
+
+</body>
+
+</html>

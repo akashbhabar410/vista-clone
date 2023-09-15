@@ -1,0 +1,95 @@
+@media only screen and (max-width: 420px){
+    .video-container{
+        min-height: auto;
+    }
+
+    .feature-container{
+        min-height: 60vh;
+    }
+
+    .feature-container .card-container-box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .feature-container .card-container-box .feature-card{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 30px;
+    }
+
+    .nfc-container{
+        padding: 5px;
+    }
+
+    .nfc-container .container-inner{
+        flex-direction: column;
+    }
+
+    .nfc-container .container-inner .banner-image{
+        width: 90%;
+    }
+    
+    .nfc-container .container-inner .banner-details{
+        width: 90%;
+        min-height: 470px;
+    }
+
+    .setup-image-container{
+        flex-direction: column;
+    }
+
+    .setup-image-container .image-container{
+        width: 90%;
+    }
+
+    .smart-card-img{
+        justify-content: center;
+    }
+
+    .smart-content-box{
+        margin-right: 0px;
+        width: auto;
+        margin: 40px;
+    }
+
+    .card-container-3 .card3{
+        display: flex !important;
+        flex-direction: column !important;
+        margin: auto;
+
+    }
+
+    .card-container-3 .card3 div{
+        width: 90% !important;
+    }
+
+}
+
+@media only screen and (max-width: 1150px){
+    .header{
+        display: flex;
+        min-height: 50vh;
+        flex-direction: column;
+    }
+    .card-container .card .image{
+        display: none !important;
+    }
+    .card-container .card .content{
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .card-container .card2 .image{
+        display: none !important;
+    }
+    .card-container .card2 .content{
+        width: auto;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    
+}
