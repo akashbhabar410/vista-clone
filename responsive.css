@@ -165,6 +165,12 @@
         transform: translatey(-100%);
         text-align: center;
    }
+
+   .nav-menu-responsive{
+    transform: translate(0) !important;
+    opacity: 1 !important;
+   }
+
     .menu-active .nav-menu {
         transform: translatey(0%);
         opacity: 1;
