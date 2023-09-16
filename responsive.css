@@ -98,6 +98,15 @@
     .card-2 .image{
         width: 90%;
     }
+
+    .id-banner .text-content{
+        scale: 0.5;
+        position: absolute;
+        width: 490px;
+        top: 50%;
+        left: -14%;
+        color: #fff;
+    }
 }
 
 @media only screen and (max-width: 1150px) {

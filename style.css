@@ -15,7 +15,7 @@
     padding: 0;
 }
 
-body{
+body, html{
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -740,4 +740,38 @@ header .navigation nav ul li a{
 }
 .sub-nav:hover {
     display: block;
+}
+
+
+/* ------------ID Banner----------- */
+.id-banner{
+    position: relative;
+    background-color: #000;
+    width: 100vw;
+}
+
+.id-banner .text-content{
+    position: absolute;
+    width: 490px;
+    top: 45%;
+    left: 5%;
+    color: #fff;
+}
+
+.id-banner .text-content span{
+    background-color: #0dcc6c;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.id-banner .text-content h2{
+    margin-top: 20px;
+    font-size: 48px;
+    line-height: 1.3;
+}
+.id-banner .text-content p{
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
