@@ -79,7 +79,8 @@ header .navigation nav ul li a{
 }
 
 .container{
-    padding-top: 80px !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
 }
 
 
@@ -346,30 +347,47 @@ header .navigation nav ul li a{
 
 .card-container-2{
     display: flex !important;
-    min-height: 100vh !important;
-     /*padding: 40px;*/
+    min-height: 80vh !important;
+    width: 100vw;
+    background-color: #f8f8f8;
 }
 
 .card-2{
-    background-color: #f8f8f8;
     display: flex;
+    margin: 40px;
     flex-direction: row;
-    /*padding: 0px 0;*/
     overflow: hidden;
 }
-.card-container-2 .card-2 .content{
+
+.card-2 .content{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 50%;
 }
-.card-container-2 .card-2 .content .content-box{
-    display: flex;
-    flex-direction: column;
-    padding-left: 150px;
-    padding-right: 50px;
+
+.card-2 .content .content-box{
+    width: 70%;
 }
-.card-container-2 .card-2 .content .content-box h2{
-    font-size: 55px;
+
+.card-2 .content .content-box h2{
+    font-size: 44px;
+    line-height: 1;
+    font-family: Graphik-light, sans-serif !important;
+}
+
+.card-2 .content .content-box p{
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: Graphik-light, sans-serif !important;
+    margin-top: 24px;
+    font-weight: bold;
+    color: #383838;
+}
+
+.card-2 .image{
+    width: 50%;
 }
 
 
@@ -417,8 +435,9 @@ header .navigation nav ul li a{
 .card-container-3{
     display: flex ;
     min-height: 60vh;
-    /*margin-bottom: 300px;*/
-    /* padding: 40px; */
+    background-color: #204949;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-3{
@@ -482,6 +501,10 @@ header .navigation nav ul li a{
 }
 
 
+/* ----------Card-container-2---------- */
+
+
+
 
 /*--------Setup section-----------*/
 .setup-container{
@@ -491,7 +514,6 @@ header .navigation nav ul li a{
     justify-content: center;
     min-height: 60vh;
     width: 100vw;
-
 }
 
 .setup-container .title{
@@ -657,11 +679,7 @@ header .navigation nav ul li a{
     width: 30px;
     z-index: 1000;
 }
-@media screen and (max-width: 768px) {
-    .hamburger {
-        display: inline-block;
-   }
-}
+
 .hamburger-line {
     background: #272727;
     height: 3px;
@@ -703,25 +721,7 @@ header .navigation nav ul li a{
     padding: 0;
     transition: all 0.25s ease-in;
 }
-@media screen and (max-width: 768px) {
-    .nav-menu {
-        background: #fff;
-        flex-direction: column;
-        justify-content: center;
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        transform: translatey(-100%);
-        text-align: center;
-   }
-    .menu-active .nav-menu {
-        transform: translatey(0%);
-        opacity: 1;
-   }
-}
+
 .nav-menu .menu-item a {
     color: #444;
     display: block;
@@ -734,30 +734,7 @@ header .navigation nav ul li a{
     color: #777;
     text-decoration: underline;
 }
-@media screen and (max-width: 768px) {
-    .nav-menu .menu-item a {
-        font-size: 20px;
-        margin: 8px;
-   }
-}
-.sub-nav {
-    border: 1px solid #ccc;
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    padding: 5px 5px;
-    list-style: none;
-    width: 230px;
-}
-@media screen and (max-width: 768px) {
-    .sub-nav {
-        position: relative;
-        width: 100%;
-        display: none;
-        background-color: rgba(0, 0, 0, 0.20);
-        box-sizing: border-box;
-   }
-}
+
 .nav__link:hover + .sub-nav {
     display: block;
 }
