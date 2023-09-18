@@ -4,6 +4,10 @@
         padding: 20px 0 !important;
     }
 
+    .price-card{
+        min-width: 90%;
+    }
+
     .video-container {
         min-height: auto;
     }
@@ -106,6 +110,12 @@
         top: 50%;
         left: -14%;
         color: #fff;
+    }
+
+    .id-banner iframe{
+        width: 200% !important;
+        min-height: 100vh !important;
+        transform: translateX(-37%) translateY(-16%) !important;
     }
 }
 

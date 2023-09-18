@@ -17,7 +17,6 @@
 
 body, html{
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -756,6 +755,16 @@ header .navigation nav ul li a{
     top: 45%;
     left: 5%;
     color: #fff;
+}
+
+.id-banner .text-content::before{
+    content: '';
+    height: 100%;
+    width: 3px;
+    background-color: #0dcc6c;
+    position: absolute;
+    top: -5px;
+    left: -10px;
 }
 
 .id-banner .text-content span{
